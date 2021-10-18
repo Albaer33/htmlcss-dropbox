@@ -106,3 +106,71 @@ h1 {
 .dropbox-plan {
     margin-top: 150px;
 }
+.dropbox-plan h2 {
+    font-size: 50px;
+    margin: 50px 0;
+}
+.fatturazione * {
+    display: inline-block;
+}
+.fatturazione span {
+    margin-right: 20px;
+}
+.circle {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.unselected {
+    border: solid 1px grey;
+}
+.selected {
+    border: solid 5px #0061ff;
+}
+.col-plan {
+    height: 900px;
+    margin: 30px 0;
+    width: calc(92% / 3);
+    border: solid 1px lightgrey;
+}
+.plan-middle {
+    margin: 30px 4%;
+}
+.forwho {
+    text-align: center;
+    border-bottom: solid 1px lightgrey;
+    padding: 10px 0;
+}
+.plan-content {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+.plan-content .button {
+    width: 100%;
+    padding: 6px 15%;
+}
+.plan-element {
+    margin: 20px 0;
+}
+.plan-content h4 {
+    font-size: 30px;
+}
+.plan-content h5 {
+    font-size: 20px;
+}
+.line {
+    margin: 25px 0;
+    width: 25%;
+    border: solid 1px lightgrey;
+}
+.enterprise {
+    margin: 30px 0;
+    width: 100%;
+    border: solid 1px lightgrey;
+}
+.enterprise h6 {
+    margin: 10px 0;
+    font-size: 18px;
+}
