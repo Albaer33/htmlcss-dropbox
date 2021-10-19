@@ -313,3 +313,51 @@ h1 {
     padding-right: 30px;
 }
 /* FAQ part */
+.faq {
+    padding: 150px 0;
+}
+.faq h4 {
+    font-size: 30px;
+    padding-bottom: 50px;
+}
+.ask-row {
+    border-top: solid 1px lightgray;
+    padding: 30px 0;
+}
+.angle-down {
+    float: right;
+    padding-right: 40px;
+}
+.fa-angle-down {
+    font-size: 25px;
+}
+.asks {
+    font-weight: 900;
+}
+/* FOOTER */
+.bg-black {
+    background-color: black;
+}
+.footer-col {
+    width: calc(100%/5);
+}
+footer h5 {
+    padding: 20px 0;
+    font-size: 24px;
+}
+footer {
+    color: white;
+    font-size: 14px;
+}
+footer li {
+    padding: 5px 0;
+}
+.footer-text {
+    padding: 50px 0;
+}
+.language {
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
