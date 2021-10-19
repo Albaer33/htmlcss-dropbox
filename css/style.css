@@ -78,7 +78,7 @@ header li {
 .jumbotron {
     width: 80%;
     margin: auto;
-    padding-top: 200px;
+    padding: 200px 0;
 }
 h1 {
     font-size: 75px;
@@ -107,6 +107,7 @@ h1 {
     margin-top: 150px;
 }
 .dropbox-plan h2 {
+    padding-top: 100px;
     font-size: 50px;
     margin: 50px 0;
 }
@@ -129,7 +130,7 @@ h1 {
     border: solid 5px #0061ff;
 }
 .col-plan {
-    height: 900px;
+    min-height: 1000px;
     margin: 30px 0;
     width: calc(92% / 3);
     border: solid 1px lightgrey;
@@ -143,9 +144,16 @@ h1 {
     padding: 10px 0;
 }
 .plan-content {
-    width: 80%;
-    margin: auto;
-    padding: 20px 0;
+    padding: 20px;
+}
+.col-enterprise {
+    width: 60%;
+}
+.col-btn {
+    margin: 50px 0;
+    text-align: center;
+    float: right;
+    width: 40%;
 }
 .plan-content .button {
     width: 100%;
@@ -356,8 +364,10 @@ footer li {
     padding: 50px 0;
 }
 .language {
+    margin-top: 70px;
+    border-top: solid 1px white;
     display: inline-block;
-    padding-top: 50px;
+    padding-top: 40px;
     padding-bottom: 100px;
 }
 
